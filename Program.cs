@@ -1,7 +1,7 @@
 ﻿Console.Write("Please enter a number: ");
 if (!Int32.TryParse(Console.ReadLine(), out var firstNumber))
 {
-    Console.WriteLine("Wrong inout!");
+    Console.WriteLine("Wrong input!");
     return;
 }
 
